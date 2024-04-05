@@ -1,0 +1,17 @@
+node_modules
+.github
+.vscode
+.vscode-test
+docs
+out/test
+src
+test
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+.vscodeignore
+renovate.json
+rollup.config.js
+tsconfig.json
+*.vsix

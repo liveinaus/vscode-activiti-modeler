@@ -1,0 +1,74 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #333;
+  background: white;
+}
+
+#canvas {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#properties-panel {
+  position: absolute;
+  overflow: hidden;
+  width: 30%;
+  right: 0px;
+  height: auto;
+  background: lightblue !important;
+  padding-bottom: 20px;
+}
+
+/* COLOR PICKER */
+
+.djs-popup.color-picker .entry {
+  margin: 0;
+}
+
+.djs-popup.color-picker .djs-popup-group {
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr;
+}
+
+#properties-panel {
+  position: absolute;
+  overflow: hidden;
+  width: 30%;
+  right: 0px;
+  height: auto;
+  background: lightblue !important;
+  padding-bottom: 20px;
+}
+
+#properties-panel input {
+  margin: var(--input-margin-vertical) var(--input-margin-horizontal);
+}
+
+#properties-panel label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#properties-panel .bio-properties-panel-arrow {
+  display: none;
+}
+
+#properties-panel .bio-properties-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#properties-panel .bio-properties-panel-group-header {
+  display: none;
+}
